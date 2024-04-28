@@ -1,0 +1,77 @@
+.side-bar-main{
+    display: flex;
+    gap: 20px;
+    
+   
+
+}
+.sidebar-scroller{
+    width: 3px;
+    height: auto;
+    background-color: 
+    #00000030;
+    border-radius: 10px;
+}
+.sidebar-contents{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sidebar-contents h1{
+    font-size: 20px !important;
+    color: #0000002b;
+    cursor: pointer;
+}
+.scroller-poineter{
+    height: 20px;
+    width: 3px;
+    background-color: #1C75BC
+}
+/* Sidebar.css */
+
+/* Default styles for h1 */
+.sidebar-contents h1 {
+    font-size: 24px; /* default font size */
+    color: #0000002b; /* default color */
+    cursor: pointer; /* make it look clickable */
+  }
+  
+  /* Styles for the clicked h1 */
+  .sidebar-contents h1.active {
+    font-size: 24px; /* increased font size */
+    color: #1C75BC;
+    font-weight: 700; /* changed color */
+  }
+  .progress-main{
+  margin-top: 30px;
+    width: 100%;
+    background-color:
+    #EDEDED;
+    height: auto;
+    padding: 20px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+  }
+  .progress-image-palce{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+ .progress-image-palce h1{
+   font-size: 20px;
+   font-weight: 600;
+
+ }
+ .progress-image-palce h3{
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .progress-image-palce p{
+    font-size: 20px;
+    font-weight: 400;
+ }
+  

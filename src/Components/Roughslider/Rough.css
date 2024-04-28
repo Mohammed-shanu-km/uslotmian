@@ -1,0 +1,612 @@
+/* .rough-main{
+    width: 100%;
+    height: 100vh;
+}
+.rough-container{
+    padding: 100px 100px 100px 100px;
+}
+.box-main{
+   /* display: flex; */
+/* justify-content: center;
+   background-color: red;
+   width: 100%;
+   height: 500px;
+   padding: 50px;
+   overflow-y: scroll;
+   flex-direction: column;
+   gap: 30px;
+}
+.box-main-2{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.box-main-3{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.box-main-4{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+}
+.box-main-2 h1{
+    text-align: center;
+
+}
+.box-main-3 h1{
+    text-align: center;
+
+}
+.good{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+} */
+
+.personality-container {
+  padding: 20px 80px 100px 80px;
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+.quistion-main-box {
+  height: 400px;
+  width: 100%;  
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 20px;
+ 
+ 
+ 
+}
+.complete-box {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+}
+.complete-button {
+  height: auto;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.complete-button button {
+  padding: 1.5rem 7rem;
+  border-radius: 5px;
+  font-size: 19px;
+  background-color: #1c75bc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.quistons-main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  overflow-y: scroll;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.q-t {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding: 50px 100px 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* .q-t-2 {
+  height: 380px;
+  width: 100%;
+  background-color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+} */
+.complete-box h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #1c75bc;
+}
+.q-t-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 68px; */
+}
+.nextooi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next-button {
+  padding: 1.5rem 7rem;
+  border-radius: 5px;
+  font-size: 19px;
+  background-color: #1c75bc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: 30%;
+}
+.clicked {
+    background-color: #589a47;
+  }
+
+.clicke{
+    background-color: #ff5858;
+   
+}
+.opacity {
+color: #0000003d !important;
+}
+
+.opa{
+    border: 1px solid #0000003d !important ;
+   
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.op{
+    color: #0000003d !important;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Fade effect */
+.fade-in {
+  opacity: 5;
+  transition: opacity 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+}
+
+.fade-out {
+  opacity: 0;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.opa-1{
+    background-color:#0000003d  !important ;
+}
+.opa-2{
+    background-color:#0000003d !important;
+}
+select{
+  border: 1px solid #1c75bc ;
+  padding: 2rem 7rem;
+  border-radius: 40px;
+
+}
+/* Rough.css */
+/* Add this style to your existing CSS file or import a separate CSS file for dropdown styles */
+
+.gender-dropdown{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.gender-dropdown select {
+  width: 100%;
+  padding: 12px 46px;
+  font-size: 18px;
+  border: 2px solid #1C75BC;
+  border-radius: 4px;
+ 
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 20px;
+  color: #0000002e;
+}
+
+.gender-dropdown select:focus {
+  outline: none;
+  border-color: #1C75BC; /* Change border color when focused */
+}
+.gender-dropdown .arrow-icon {
+  position: absolute;
+  right: 15px; /* Adjust the position as needed */
+  color:#0000002e;
+  z-index: 0;
+  pointer-events: none;
+  cursor: pointer;
+
+}
+.quiz-main-section {
+  background-color: #f5f5f5;
+  padding: 0px 80px 0px 80px;
+}
+
+.personality-test-uslot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  /* width: 30%; */
+}
+.personality-heading {
+  border: 1px solid #1c75bc;
+  padding: 1.7rem 6rem;
+  border-radius: 20px;
+}
+.personality-heading h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.quizbox {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 3rem;
+  border-radius: 20px;
+ 
+  
+}
+.quistions {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+  overflow-y: scroll;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.answer-button {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.biground-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 4px solid #589a47;
+}
+.biground-button:hover{
+  background-color: #589a47;
+}
+.biground2-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: 3px solid #589a47;
+}
+.biground2-button:hover{
+  background-color: #589a47;
+}
+.biground3-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 2px solid #589a47;
+}
+.biground3-button:hover{
+  background-color: #589a47;
+}
+.biground4-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+.biground4-button:hover{
+  background-color: gray;
+}
+
+.bigroundgreen2-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 2px solid #ff5858;
+}
+.bigroundgreen2-button:hover{
+  background-color: #ff5858;
+}
+.bigroundgreen3-button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  border: 3px solid #ff5858;
+}
+.bigroundgreen3-button:hover{
+  background-color: #ff5858;
+}
+.bigroundgreen4-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  border: 4px solid #ff5858;
+}
+.bigroundgreen4-button:hover{
+  background-color: #ff5858;
+}
+.quistions h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1c75bc;
+}
+.quistions h1 {
+  font-size: 24px;
+  font-family: 600;
+  line-height: 68px;
+}
+.agree-button {
+  font-size: 24px;
+  font-weight: 400;
+  color: black ;
+}
+.disagree-button {
+  font-size: 24px;
+  font-weight: 400;
+  color: black ;
+}
+.loader {
+  height: 10px;
+  width: 70px ;
+  background-color: #1c75bc;
+  border-radius: 15px 15px 0px 0px;
+}
+.scroller {
+  height: 80px;
+  width: 7px;
+  background-color: #00000036;
+  float: right;
+  border-radius: 50px;
+}
+.quistionwith-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  overflow: hidden;
+
+}
+
+.next-button {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.next-button button {
+  padding: 1rem 7rem;
+  border-radius: 5px;
+  font-size: 19px;
+  background-color: #1c75bc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+.wrapper {
+  overflow: hidden;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* animation: slideup 1s ease-in forwards; */
+    animation: moveup 0.5s ease-in-out forwards;
+    height: 200px;
+    gap: 40px;
+}
+
+.slide-up {
+  animation: slideup 0.5s ease-in-out forwards;
+}
+.nexts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 6rem; */
+  }
+.nexts button {
+    padding: 1.5rem 7rem;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: #1c75bc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    /* margin-top: 5rem; */
+  }
+  .filledred{
+    background-color: #589a47;
+   
+  }
+  .filled{
+    background-color: #ff5858;
+   
+
+  }
+  .backs-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .backs button{
+    padding: 1.5rem 7rem;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: #1c75bc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    
+
+  }
+  .p-dropdown-label{
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+  }
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideup {
+  from {
+    transform: translateY(0);
+    /* opacity: 100; */
+  }
+
+  to {
+    transform: translateY(-200px);
+    /* opacity: 0; */
+  }
+}
+@keyframes moveup {
+  from {
+    transform: translateY(200px);
+    /* opacity: 100; */
+  }
+
+  to {
+    transform: translateY(0px);
+    /* opacity: 0; */
+  }
+}
+.agrees{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 640px) {
+  .close-btns{
+    display: none;
+  }
+  .quizsection-main {
+    padding: 20px 20px 20px 20px;
+  }
+  .q-t{
+  padding: 20px;
+
+  }
+  .personality-container {
+    padding: 20px 20px 20px 20px;
+  }
+  
+  .answer-button{
+    gap: 20px;
+  } 
+  .q-t-heading h1{
+    font-size: 16px;
+
+  }
+  .disagree-button{
+    font-size: 16px;
+    display: none;
+   
+  }
+  .agree-button{
+    font-size: 16px;
+    display: none;
+  
+  }
+  .complete-box h1{
+    font-size: 16px;
+  }
+  .biground2-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  }
+  .biground3-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+  }
+  .biground4-button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+
+  } 
+  .bigroundgreen3-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+
+  } 
+  .bigroundgreen2-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+
+
+    
+
+   
+  }
+  .quistion-main-box {
+    height: 600px
+  }
+}
+

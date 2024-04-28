@@ -1,0 +1,12 @@
+.footer-main {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.power-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

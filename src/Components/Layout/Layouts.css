@@ -1,0 +1,17 @@
+.result-page{
+ padding: 50px 80px 35px 80px;
+}
+.result-container{
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    
+}
+.sidebar{
+    width:20%;
+
+}
+.datas{
+    width: 80%;
+
+}

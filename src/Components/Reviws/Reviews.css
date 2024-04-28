@@ -1,0 +1,155 @@
+.testimonial-para{
+    text-align: center;
+    font-size: 16px;
+    color: 
+    #525252;
+}
+.reviwe-slider-main-box{
+    height: auto;
+    
+   background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.slider-image-identification{
+    display: flex;
+    height: auto;
+    width: auto;
+    gap: 30px;
+   
+    align-items: center;
+   
+ 
+  
+}
+.slider-image-identification img{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.slider-image-identificaton-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.slider-image-identificaton-content h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: 
+    #1C2938;
+}
+.slider-image-identificaton-content h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: 
+    #1C75BC;
+}
+.qute{
+  margin-top: 15px; 
+   margin-left: -10px;
+}
+.slider-paragraph{
+    margin-top: 15px;
+    font-size: 16px;
+    color: 
+    #525252;
+}
+.rating{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+  
+}
+.rating img{
+    width: 150px;
+}
+.rating h2{
+    font-size: 21px;
+    font-weight: 500;
+    color: 
+    #1C2938;
+}
+.reviwe-slider-container{
+    padding: 40px 0px 80px 0px;
+}
+.slider-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.silder-head{
+    font-size: 67px;
+    text-align: center;
+    font-weight: 500;
+    color: #1C2938;
+}
+@media screen and (max-width: 640px) {
+    .slider-container{
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    .silder-head{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 500;
+        color: #1C2938;
+    }
+    .testimonial-para {
+        text-align: center;
+        font-size: 14px;
+        color: #525252;
+    }
+    .swiper-pagination{
+        display: none;
+    }
+    .slider-image-identificaton-content h2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #1C2938;
+    }
+    .slider-image-identificaton-content h3 {
+        font-size: 10px;
+        font-weight: 400;
+        color: #1C75BC;
+    }
+    .slider-image-identification {
+        display: flex;
+        height: auto;
+        width: auto;
+        gap: 12px;
+        align-items: center;
+    }
+    .slider-image-identification img {
+        height: 50px;
+        width: 50px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .qute {
+        margin-top: 15px;
+        margin-left: -10px;
+        height: 20px;
+    }
+    .slider-paragraph {
+        margin-top: 15px;
+        font-size: 10px;
+        color: #525252;
+    }
+    .rating img {
+        width: 100px;
+    }
+    .rating h2 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #1C2938;
+    }
+    .reviwe-slider-container {
+        padding: 30px 0px 30px 0px;
+    }
+}

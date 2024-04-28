@@ -1,0 +1,150 @@
+.home-div{
+    padding-top: 3rem;
+   
+    background-color: #F5F5F5;
+}
+
+.home-hero{
+    width: 100%;
+    height: 100vh;
+    background: url('../../Assets/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -35px;
+    z-index: 20;
+}
+.home-hero-text{
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-hero-text h1{
+    font-size: 75px;
+    line-height: 78.4px;
+    font-weight: 600;
+    margin: 0;
+    background: linear-gradient(to right, #1C36BC, #1C75BC);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}  
+.heading-p-div{
+    margin-top: 38px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}  
+.home-hero-text p{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+   
+} 
+.career-path-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1.5px solid #1C75BC;
+    margin: auto;
+    width: 28%;
+    border-radius: 30px;
+    padding: 8px 0;
+}
+.career-path-div p{
+    font-size: 11px !important;
+    font-weight: 500;
+}
+.career-path-imgdiv{
+    display: flex;
+}
+.career-path-imgdiv #person2,#person3{
+    border-radius: 50%;
+}
+.hero-text-btn{
+    background-color: #1C75BC;
+    color: #FFFFFF;
+    padding: 20px 54px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero-section-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.down-word-arrow{
+    width: 50px;
+    height: 50px;
+}
+.down-arrow-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+@media screen and (max-width: 640px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .home-hero{
+        background-position: center;
+        height: 100vw;
+        margin-top: 70px;
+
+    }
+    .career-path-div{
+        width: 90%;
+
+    }
+    .home-hero-text h1{
+        font-size: 27px;
+        font-weight: 600;
+        line-height: 60px;
+
+    }
+    .home-div{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .home-hero-text p{
+        font-size: 16px ;
+       
+      
+
+    }
+    .career-path-div p{
+        font-size: 10px !important;
+
+    }
+    .heading-p-div{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .home-hero-text {
+        top: 140px;
+
+    }
+    .hero-text-btn {
+        display: none;
+    }
+    .down-word-arrow{
+        display: none;
+    }
+   
+
+   
+   
+}
+  

@@ -1,0 +1,55 @@
+.login-page-main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.login-image-section {
+  width: 50%;
+  background-image: url("../../Assets/portrait-young-boy-with-book-education-day\ 1\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-content-section {
+  width: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.login-content {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  float: left;
+}
+.login-button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-button-section h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.single-button-google {
+  display: flex;
+}
+.google {
+  display: flex;
+}
+.google button {
+  padding: 1rem 9rem;
+  background-color: #346ef1;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+.para-of-login {
+  font-size: 20px;
+  font-weight: 400;
+}
+.para-of-login span {
+  color: #346ef1;
+}
